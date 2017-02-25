@@ -1,3 +1,3 @@
+# THIS SCRIPT IS USED TO COUNT THE NUMBER OF CHARACTERS IN A FILE
 head -5 $1 | sort > $2 
-wc -c $2 > animals_first5_size.txt
 
